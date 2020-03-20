@@ -1,0 +1,165 @@
+body {
+  font-family: "Open Sans", sans serif;
+  color: #333;
+  overflow-x: hidden;
+}
+
+div.frifm-banner {
+  background: url('../images/bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+}
+
+div.frifm-banner-torn {
+  height: 100%;
+  background: url('../images/torn_white.png');
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer.frifm-about {
+  background-color: rgba(30, 29, 29, 0.07);
+}
+
+h2, h3 {
+  font-family: Rokkitt, serif;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 55px;
+}
+
+h3 {
+  font-size: 40px;
+  margin: 0.6em 0 0.3em;
+}
+
+p {
+  font-size: 1.3em;
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a.frifm-link {
+  color: #73984a;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+img.frifm-icon {
+  width: 170px;
+}
+
+hr {
+  border-top: 1px solid black;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+a.frifm-button {
+  border: 3px solid #73984a;
+  font-family: Rokkitt, serif;
+  font-weight: 500;
+  background: transparent;
+  font-size: 1.6em;
+  padding: 0.3em 1em;
+  margin-bottom: 1em;
+  display: block;
+  float: right;
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  a.frifm-button {
+    float: none;
+  }
+}
+
+a.frifm-button:hover {
+  border-color: #d87900;
+  background: #d87900;
+  color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+  img.frifm-icon {
+    width: 110px;
+  }
+
+  div.frifm-banner {
+    height: 400px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  div.frifm-banner {
+    height: 280px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  img.frifm-logo {
+    width: 200px;
+  }
+}
+
+nav.frifm-language-nav {
+  background-color: rgb(120, 153, 0);
+  font-size: 0.8em;
+  min-height: 43px;
+  border-bottom: 1px solid #fff;
+  font-size: 0.9em;
+}
+
+nav.frifm-language-nav .nav .nav-item {
+  text-transform: uppercase;
+}
+
+.frifm-language-nav .nav .nav-item a {
+  color: rgba(255, 255, 255, 0.9);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.frifm-language-nav .nav .nav-item:first-child a {
+  border: none !important;
+}
+
+.frifm-language-nav .nav .nav-item a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.frifm-social-footer {
+  padding: 1.5em 0;
+  background-color: rgba(48, 48, 48, 1);
+}
+
+.frifm-social-footer a.icon {
+  margin: 0 0.5em;
+}
+
+.frifm-social-footer a.icon img {
+  width: 40px;
+}
